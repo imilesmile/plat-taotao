@@ -11,6 +11,8 @@
     <modules>
         <module>plat-taotao-common</module>
         <module>plat-taotao-manager</module>
+        <module>plat-taotao-rest</module>
+        <module>plat-taotao-portal</module>
     </modules>
     <!-- 集中定义依赖版本号 -->
     <properties>

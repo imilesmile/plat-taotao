@@ -27,6 +27,8 @@
         <module name="plat-taotao-manager-pojo" />
         <module name="plat-taotao-manager-service" />
         <module name="plat-taotao-manager-web" />
+        <module name="plat-taotao-portal" />
+        <module name="plat-taotao-rest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -38,6 +40,8 @@
       <module name="plat-taotao-manager-service" target="1.7" />
       <module name="plat-taotao-manager-web" target="1.7" />
       <module name="plat-taotao-parent" target="1.7" />
+      <module name="plat-taotao-portal" target="1.7" />
+      <module name="plat-taotao-rest" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
