@@ -30,6 +30,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="plat-taotao" target="1.7" />
       <module name="plat-taotao-common" target="1.7" />
       <module name="plat-taotao-manager" target="1.7" />
       <module name="plat-taotao-manager-dao" target="1.7" />

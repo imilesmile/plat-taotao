@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/plat-taotao.iml" filepath="$PROJECT_DIR$/plat-taotao.iml" />
       <module fileurl="file://$PROJECT_DIR$/plat-taotao-common/plat-taotao-common.iml" filepath="$PROJECT_DIR$/plat-taotao-common/plat-taotao-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/plat-taotao-manager/plat-taotao-manager.iml" filepath="$PROJECT_DIR$/plat-taotao-manager/plat-taotao-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/plat-taotao-manager/plat-taotao-manager-dao/plat-taotao-manager-dao.iml" filepath="$PROJECT_DIR$/plat-taotao-manager/plat-taotao-manager-dao/plat-taotao-manager-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/plat-taotao-manager/plat-taotao-manager-pojo/plat-taotao-manager-pojo.iml" filepath="$PROJECT_DIR$/plat-taotao-manager/plat-taotao-manager-pojo/plat-taotao-manager-pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/plat-taotao-manager/plat-taotao-manager-service/plat-taotao-manager-service.iml" filepath="$PROJECT_DIR$/plat-taotao-manager/plat-taotao-manager-service/plat-taotao-manager-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/plat-taotao-manager/plat-taotao-manager-web/plat-taotao-manager-web.iml" filepath="$PROJECT_DIR$/plat-taotao-manager/plat-taotao-manager-web/plat-taotao-manager-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/plat-taotao-parent.iml" filepath="$PROJECT_DIR$/plat-taotao-parent.iml" />
     </modules>
   </component>
 </project>
