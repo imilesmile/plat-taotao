@@ -23,7 +23,7 @@ public class ItemCatImpl implements ItemCat {
 
 
     @Override
-    public List<EasyUITreeNode> getItemCat(long parentId) {
+    public List<EasyUITreeNode> getItemCat(final long parentId) {
 
         TbItemCatExample example = new TbItemCatExample();
         TbItemCatExample.Criteria criteria= example.createCriteria();
@@ -37,7 +37,7 @@ public class ItemCatImpl implements ItemCat {
             EasyUITreeNode treeNode = new EasyUITreeNode();
             treeNode.setId(tbItemCat.getId());
             treeNode.setText(tbItemCat.getName());
-            treeNode.setState(tbItemCat.getIsParent()?"closed":"open");
+            treeNode.setState(tbItemCat.getIsParent() ? "closed" : "open");
             nodeList.add(treeNode);
 
         }

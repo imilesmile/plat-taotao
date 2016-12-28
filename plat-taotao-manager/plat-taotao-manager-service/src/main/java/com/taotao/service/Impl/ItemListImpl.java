@@ -19,21 +19,30 @@ import java.util.List;
 @Service
 public class ItemListImpl implements ItemList {
 
+    /**
+     *
+     */
     @Autowired
     private TbItemMapper itemMapper;
 
 
+    /**
+     *
+     * @param page
+     * @param rows
+     * @return
+     */
     @Override
-    public EasyUIDataGridResult getItemList(int page, int rows) {
+    public EasyUIDataGridResult getItemList(final int page, final int rows) {
 
         //查询
         TbItemExample example = new TbItemExample();
         List<TbItem> list = itemMapper.selectByExample(example);
 
         //分页
-        PageHelper.startPage(page,rows);
+        PageHelper.startPage(page, rows);
 
-        PageInfo<TbItem> info = new PageInfo<TbItem>(list);
+        PageInfo<TbItem> info = new PageInfo<>(list);
 
         EasyUIDataGridResult easyUI = new EasyUIDataGridResult();
         easyUI.setTotal(info.getTotal());
